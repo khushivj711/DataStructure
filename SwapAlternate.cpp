@@ -20,10 +20,10 @@ void printArray(int arr[] , int size){
 
 int main(){
 
-    int arr[6] = {1,3,2,7,11,8};
+    int arr[5] = {1,3,2,7,11};
 
-    SwapAlternate(arr , 6);
-    printArray(arr , 6);
+    SwapAlternate(arr , 5);
+    printArray(arr , 5);
 
     return 0;
 }
